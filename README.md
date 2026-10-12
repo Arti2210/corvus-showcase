@@ -187,10 +187,12 @@ The demo build you can be shown runs entirely on mocked data and does not touch 
 
 ## 📬 Contact
 
-Telegram: **[https://github.com/Arti2210](https://github.com/Arti2210)**
+- Telegram: **[@Dr_Degree_X](https://t.me/Dr_Degree_X)**
+- Email: **[personalassistant@corvusasist.site](mailto:personalassistant@corvusasist.site)**
+- Phone: **068 873 95 87**
 
-> ⚠️ `https://github.com/Arti2210` is a placeholder — replace it with the real contact link before publishing
-> (see [PUBLISH_INSTRUCTIONS.md](PUBLISH_INSTRUCTIONS.md)).
+Demo bot: [@Demo_Corvus_bot](https://t.me/Demo_Corvus_bot) · Live demo: [sales.46-62-255-242.nip.io](https://sales.46-62-255-242.nip.io/)
+
 
 ---
 

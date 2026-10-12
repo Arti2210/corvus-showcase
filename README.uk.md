@@ -187,10 +187,12 @@ HMAC `initData` від Telegram, маршрути доступні лише вл
 
 ## 📬 Контакт
 
-Telegram: **[https://github.com/Arti2210](https://github.com/Arti2210)**
+- Telegram: **[@Dr_Degree_X](https://t.me/Dr_Degree_X)**
+- Пошта: **[personalassistant@corvusasist.site](mailto:personalassistant@corvusasist.site)**
+- Телефон: **068 873 95 87**
 
-> ⚠️ `https://github.com/Arti2210` — це плейсхолдер. Замініть на реальне посилання перед публікацією
-> (див. [PUBLISH_INSTRUCTIONS.md](PUBLISH_INSTRUCTIONS.md)).
+Демо-бот: [@Demo_Corvus_bot](https://t.me/Demo_Corvus_bot) · Живе демо: [sales.46-62-255-242.nip.io](https://sales.46-62-255-242.nip.io/)
+
 
 ---
 

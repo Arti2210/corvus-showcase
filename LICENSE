@@ -1,0 +1,147 @@
+> ⚠️ **ШАБЛОН — ПОТРІБНО УЗГОДИТИ З ВЛАСОЦЕМ ПЕРЕД ПУБЛІКАЦІЄЮ.**
+> Цей текст є чернеткою, підготовленою агентом. Юридичні формулювання, перелік дозволених
+> використань та умови про демо мають бути перевірені власником (за потреби — юристом).
+> Замінити `Arti2210` / `2026` / `https://github.com/Arti2210` перед першим комітом.
+
+================================================================================
+ПРОПРІЕТАРНА ЛІЦЕНЗІЯ / PROPRIETARY LICENSE
+================================================================================
+Версія: 0.1-draft    Діє з: 2026
+
+--------------------------------------------------------------------------------
+УКРАЇНСЬКА ВЕРСІЯ (має переважну силу)
+--------------------------------------------------------------------------------
+
+1. ПРЕДМЕТ ЛІЦЕНЗІЇ
+
+   1.1. Продукт «Corvus» (далі — «Продукт»), його вихідний код, архітектура, конфігурації,
+       документація, тести та будь-які похідні матеріали (далі — «Матеріали») є
+       пропріетарними. Всі права належать виключно правовласнику — Arti2210
+       (далі — «Правовласник»).
+
+   1.2. Правовласник НЕ відкриває вихідний код Продукту. Ліцензія не надає жодних прав на
+       відтворення, модифікацію, поширення чи перепродаж вихідного коду Продукту.
+
+2. ЩО МІСТИТЬ ЦЕЙ ПУБЛІЧНИЙ РЕПОЗИТОРІЙ
+
+   2.1. Публічний репозиторій є ВІТРИНОЮ і містить виключно:
+        a) документацію описового характеру (README, README.uk.md тощо);
+        b) демонстраційні матеріали та скріншоти з обезличенними (моковими) даними;
+        c) ліцензію та політику безпеки.
+
+   2.2. Публічний репозиторій НЕ містить і НЕ поширює вихідного коду Продукту.
+
+3. ЩО ДОЗВОЛЕНО
+
+   3.1. Читання матеріалів цього репозиторію.
+   3.2. Публічне цитування та посилання на матеріали з посиланням на автора, за умови
+        невнесення змін у зміст і неведення в оману щодо функцій Продукту.
+   3.3. Звернення до Правовласника щодо демонстрації, ліцензування або розгортання Продукту.
+
+4. ЩО ЗАБОРОНЕНО
+
+   4.1. Копіювання, відтворення, декомпіляція, реверс-інжиниринг вихідного коду Продукту.
+   4.2. Комерційне використання коду Продукту — копіювання, продаж, перепродаж, надання
+       в оренду, субаренду або включення до комерційних продуктів і послуг — без письмової
+       згоди Правовласника. Письмова згода оформлюється окремим договором.
+   4.3. Видавання публічного репозиторію за «open source» або спроба отримати статус
+       open-source для похідного коду.
+   4.4. Видалення або зміна правовласника, авторства, застережень про авторські права
+       та ліцензійних позначень.
+   4.5. Використання скриншотів чи демонстрацій для створення враження, що Продукт уже є
+       публічним, безкоштовним або з відкритим кодом.
+
+5. ДЕМО
+
+   5.1. Демонстраційний доступ надається на розсуд Правовласника, без гарантій доступності.
+   5.2. Демо працює на обезличенних (мокових) даних і не надає доступу до реальних акаунтів,
+       реальних переписок чи персональних даних.
+   5.3. Запис відео, скриншотів і логів демо в маркетингових матеріалах третніх сторін —
+       лише за письмової згоди Правовласника.
+
+6. ГАРАНТІЇ ТА ВІДПОВІДАЛЬНІСТЬ
+
+   6.1. Продукт надається «ЯК Є» (as is), без гарантій придатності для конкретної мети.
+   6.2. Правовласник не відповідає за будь-які непрямі чи випадкові збитки, спричинені
+       використанням матеріалів цього репозиторію.
+
+7. ТЕРМІН ТА ПРИПИНЕННЯ
+
+   7.1. Ця ліцензія діє безстроково відносно матеріалів репозиторію.
+   7.2. Правовласник може будь-коли змінити умови, опублікувавши нову редакцію LICENSE.
+
+8. ЗАСТЕРЕЖЕННЯ ПРО ТОВАРНІ ЗНАКИ
+
+   Назва та логотип Продукту є власністю Правовласника. Ця ліцензія не надає прав на
+   товарні знаки, окрім права використовувати їх у точному вигляді для опису походження
+   матеріалів.
+
+================================================================================
+ENGLISH VERSION (informative translation; the Ukrainian text above prevails)
+--------------------------------------------------------------------------------
+
+1. SUBJECT
+
+   1.1. The "Corvus" product (the "Product"), its source code, architecture, configurations,
+       documentation, tests and any derivative materials (the "Materials") are proprietary.
+       All rights are held solely by the copyright holder — Arti2210 (the "Holder").
+
+   1.2. The Holder does NOT release the Product source code. This License grants no right to
+       reproduce, modify, distribute or resell the Product source code.
+
+2. WHAT THIS PUBLIC REPOSITORY CONTAINS
+
+   2.1. This public repository is a SHOWCASE and contains only:
+        a) descriptive documentation (README, README.uk.md, etc.);
+        b) demo materials and screenshots with de-identified (mocked) data;
+        c) the license and security policy.
+
+   2.2. This public repository does NOT contain and does NOT distribute Product source code.
+
+3. PERMITTED
+
+   3.1. Reading the materials in this repository.
+   3.2. Public quotation and linking, with attribution, provided the content is unaltered and
+        not presented in a misleading way about the Product's features.
+   3.3. Contacting the Holder to request a demo, a license, or deployment.
+
+4. PROHIBITED
+
+   4.1. Copying, reproducing, decompiling or reverse engineering the Product source code.
+   4.2. Commercial use of the Product code — copying, selling, reselling, leasing, subleasing,
+       or inclusion in commercial products or services — without the Holder's prior written
+       consent, which must be formalized in a separate agreement.
+   4.3. Presenting this public repository as "open source", or attempting to obtain open-source
+       status for derivative code.
+   4.4. Removing or altering the copyright holder, authorship, proprietary notices, or license
+       markings.
+   4.5. Using screenshots or the demo to create the impression that the Product is already
+       public, free, or open source.
+
+5. DEMO
+
+   5.1. Demo access is granted at the Holder's discretion, with no availability guarantee.
+   5.2. The demo runs on de-identified (mocked) data and grants no access to real accounts,
+       real conversations or personal data.
+   5.3. Recording the demo (video, screenshots, logs) for third-party marketing materials
+       requires the Holder's prior written consent.
+
+6. DISCLAIMER OF WARRANTY
+
+   6.1. The Product is provided "AS IS", without warranty of fitness for a particular purpose.
+   6.2. The Holder is not liable for any indirect or incidental damages arising from the use of
+       this repository's materials.
+
+7. TERM AND TERMINATION
+
+   7.1. This License is effective indefinitely with respect to the repository materials.
+   7.2. The Holder may change these terms at any time by publishing a new version of LICENSE.
+
+8. TRADEMARKS
+
+   The Product name and logo are the property of the Holder. This License grants no trademark
+   rights, except the right to use them verbatim to indicate the origin of the materials.
+
+================================================================================
+КОНТАКТ З ПРАВООБЛАДАТЕЛЕМ / HOLDER CONTACT: https://github.com/Arti2210
+================================================================================

@@ -1,0 +1,154 @@
+# Secrets, credentials and runtime data
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.env
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.keystore
+*.jks
+
+# Telethon / Telegram session state
+*.session
+*.session-journal
+*.session.sqlite*
+
+# Runtime databases (SQLite and friends)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+data/
+*.db.backup
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Test / typing / lint caches
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+.eslintcache
+
+# Build output
+build/
+out/
+.target/
+*.war
+*.ear
+*.jar
+*.apk
+*.aab
+*.ipa
+*.dmg
+*.deb
+*.rpm
+
+# Backups and dumps
+backups/
+backup/
+*.bak
+*.backup
+*.dump
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+dumps/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Runtime / media artifacts
+uploads/
+attachments/
+media/
+tmp/
+temp/
+*.pid
+*.sock
+
+# Editor / OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Project internals that must never be published
+.claude/
+.planning/
+docs/internal/
+*audit*
+*_REPORT.md

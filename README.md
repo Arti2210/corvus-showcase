@@ -79,12 +79,15 @@ Agent, Contacts, Dialogs, Memory, Roles, Tasks, System, Dashboard). Auth is base
 | **VPS** (recommended) | 1 vCPU, 2 GB RAM, 10 GB disk, Ubuntu 22.04+ | from ~$3–5 / month | the simplest and most reliable path |
 | **Home PC, old laptop or Raspberry Pi** | stable power and internet; the machine can stay on | one-time (often $0) | those who prefer not to pay monthly |
 | **Android phone as a server** (Termux + `proot-distro` with Ubuntu/Debian) | Python 3.11 and Redis inside the proot environment | $0 if you already own the phone | the lowest possible budget |
+| **Oracle Cloud Always Free** | an Oracle Cloud account — a card is required for identity verification, one account per person | **$0** — Always Free compute (AMD and Arm Ampere A1) has no time limit | those who want a real cloud VM without paying monthly |
 
 **Honest caveats for the phone option** — documented as possible, **not officially tested by us**:
 
 - battery optimisation must be disabled for Termux and background work allowed, otherwise Android suspends the process and the bot stops answering;
 - the phone needs constant power and a stable Wi-Fi or mobile connection;
 - performance and uptime are lower than on a VPS: enough for a single owner, not for client-facing load.
+
+- **Oracle Cloud Always Free** is genuinely free but capacity-limited: the "out of host capacity" error is common (especially for Arm shapes), accounts idle for 30+ days may be reclaimed, and Always-Free-only accounts get no SLA and no Oracle Support — community forums only. Check the current limits on [oracle.com/cloud/free](https://www.oracle.com/cloud/free/) before relying on it.
 
 **Not suitable:** free PaaS tiers that kill long-running workers, and Windows hosting without WSL.
 

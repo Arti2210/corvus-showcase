@@ -2,7 +2,7 @@
 
 # 🦅 Corvus
 
-### A personal AI assistant that runs on your own server, talks to people through Telegram, and remembers who it talks to.
+### A personal AI assistant that talks to people through Telegram, remembers who it talks to, and runs on your own server — a cheap VPS, a home PC, or even an Android phone.
 
 [Українська версія](README.uk.md) · [Capabilities](#-capabilities) · [Architecture](#-architecture) · [Status](#-status) · [Contact](#-contact)
 
@@ -69,6 +69,26 @@ Agent, Contacts, Dialogs, Memory, Roles, Tasks, System, Dashboard). Auth is base
 *Source: `CORVUS_CAPABILITIES.md` §1.6, §1.9*
 
 ---
+
+## 🖥️ Where it runs
+
+"Your own server" does not have to mean a paid VPS. Corvus is one Python process plus a database, so it runs anywhere Python 3.11 lives.
+
+| Option | What you need | Typical cost | Best for |
+|---|---|---|---|
+| **VPS** (recommended) | 1 vCPU, 2 GB RAM, 10 GB disk, Ubuntu 22.04+ | from ~$3–5 / month | the simplest and most reliable path |
+| **Home PC, old laptop or Raspberry Pi** | stable power and internet; the machine can stay on | one-time (often $0) | those who prefer not to pay monthly |
+| **Android phone as a server** (Termux + `proot-distro` with Ubuntu/Debian) | Python 3.11 and Redis inside the proot environment | $0 if you already own the phone | the lowest possible budget |
+
+**Honest caveats for the phone option** — documented as possible, **not officially tested by us**:
+
+- battery optimisation must be disabled for Termux and background work allowed, otherwise Android suspends the process and the bot stops answering;
+- the phone needs constant power and a stable Wi-Fi or mobile connection;
+- performance and uptime are lower than on a VPS: enough for a single owner, not for client-facing load.
+
+**Not suitable:** free PaaS tiers that kill long-running workers, and Windows hosting without WSL.
+
+**Minimum requirements:** Python 3.11, ~1 GB RAM, 5–10 GB disk, SQLite or PostgreSQL, Redis. Moving between these options means copying the application directory and its database — no code changes.
 
 ## 🏗 Architecture, in two words
 

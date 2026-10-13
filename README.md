@@ -26,6 +26,24 @@ calls, and manages tasks and reminders.
 
 ---
 
+## 📱 Download the demo (Android)
+
+[**⬇️ Corvus Demo 1.1 — APK, 13.3 MB**](https://github.com/Arti2210/corvus-showcase/releases/download/v1.1-demo/corvus-demo-1.1.apk)
+
+`sha256: 64b93743652faece0b7bbc946912fd3e15ce1b06b0b43a9a339c0e127c444a9f`
+
+The demo runs **entirely on mock data**: no server, no keys, no sign-up. It sends nothing out and
+never touches a real account — it is an interface demonstration.
+
+**Install:** download the APK to your phone; Android will ask to allow installs from unknown
+sources — allow it. The app installs as `com.corvus.demo` (separate package, no conflicts).
+
+Inside: the assistant panel (dialogs, contacts, tasks, memory, graph, roles, tools) and the
+"My data" section with forms and limits. The build embeds its own **signature** and **bundle
+integrity** checks — a modified APK will not start.
+
+All builds and checksums: [releases](https://github.com/Arti2210/corvus-showcase/releases/tag/v1.1-demo).
+
 ## ✨ Key capabilities
 
 ### 🕸️ Memory that is actually structured
